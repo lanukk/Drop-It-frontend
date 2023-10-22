@@ -15,7 +15,7 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const host = "https://dropp-it.herokuapp.com/";
+const host = "https://drop-it-backend.netlify.app/";
 const uploadURL = `${host}api/files`;
 const emailURL = `${host}api/files/send`;
 
